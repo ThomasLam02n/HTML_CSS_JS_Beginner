@@ -1,0 +1,23 @@
+
+html, body{
+    margin: 0px;
+    background-image: linear-gradient(to bottom right, #95d9f9, #ae4bc3); /*đổi màu nền webpage*/
+}
+
+h1{
+    color: #1b95cd;
+    font-family: tahoma, sans-serif;
+    opacity: 60%; /* độ mờ */
+    position: absolute;
+    -webkit-test-stroke: 2px white;
+}
+
+.globe{
+    text-align: center; /* canh giữa */
+    margin-top: 150px;
+}
+
+.globe_image{
+    height: 70vh;
+}
+

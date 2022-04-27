@@ -1,0 +1,52 @@
+html, body{
+    margin: 0px;
+}
+header{
+    background-color: #EB8716;
+    color: #fff;
+    width: 98%;
+    height: 200px;
+    margin: 1%;
+}
+header h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 60px;
+    font-size: 50px;
+}
+.wrapper{
+    background-color: #90CEE8;
+    width: 98%;
+    height: 400px;
+    margin: 1%;
+}
+.wrapper .page{
+    width: 19%;
+    height: 180px;
+    background-color: #006F9E;
+    display: inline-block; /* page nằm trong wrapper */
+    margin: 0.43%;
+}
+footer{
+    background-color: #006F9E;
+    color: #fff; /* change the text color */
+    width: 98%;
+    height: 60px;
+    margin: 1%;
+}
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+/* margin dùng để phạm vi giữa trang web với box còn 
+padding dùng để phạm vi giữa box và content  */
+.image_link{
+    height: 170px;
+    width: 98%;
+    margin: 1% 0 1% 1%;
+}
+.image_link:hover{ /* chuột chạm vào sẽ thực hiện chức năng (báo hiệu có thể click) */
+    filter: grayscale(70%); 
+}
+/* Link mau: https://color.adobe.com/create/color-wheel */
