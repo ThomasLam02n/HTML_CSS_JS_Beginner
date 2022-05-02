@@ -1,78 +1,93 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial;
-    font-size: 20px; /*cỡ chữ*/
+    font-size: 20px;
+    /*cỡ chữ*/
     text-align: center;
     background-color: #eee;
-    overflow-x: hidden; /* tránh để text tràn ra ngoài màn hình */
+    overflow-x: hidden;
+    /* tránh để text tràn ra ngoài màn hình */
     /* gồm: overflow-x: tránh để tràn theo chiều ngang
          overflow-y: tránh để tràn theo chiều doc
         ngoài hidden còn có nhiều option như: visible, scroll, auto
  */
 }
-#header{
+
+#header {
     border-bottom: 1px solid #666;
     color: #222;
     display: block;
     padding: 10px 0;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
 }
-#header h1{
+
+#header h1 {
     text-shadow: 0px 1px 0px #fff;
     font-weight: 300;
     margin: 0px;
     padding: 10px;
     font-size: 25px;
 }
-.question{
+
+.question {
     font-size: 30px;
     margin: 0 5% 20px 5%;
 }
 
-.answers{
+.answers {
     margin-bottom: 20px;
     text-align: left;
     display: inline-block;
 }
-.answers label{
+
+.answers label {
     display: block;
     margin-bottom: 10px;
 }
-button p{
+
+button p {
     margin-top: -8px;
 }
-button{
+
+button {
     font-weight: 200;
     font-size: 20px;
     width: 300px;
     height: 50px;
     padding: 20px;
-    cursor: pointer; /* Thay đổi con trỏ thành bàn tay khi chạm vào*/
+    cursor: pointer;
+    /* Thay đổi con trỏ thành bàn tay khi chạm vào*/
     border-radius: 3px;
     color: #fff;
     background-image: -webkit-gradient(linear, left top, left bottom,
-    from(#aaa), to(#888));
-    margin-top: 15px; /* Chỉnh khoản cách giữa các buttom */
+            from(#aaa), to(#888));
+    margin-top: 15px;
+    /* Chỉnh khoản cách giữa các buttom */
 }
-button:hover{
+
+button:hover {
     background-image: -webkit-gradient(linear, left top, left bottom,
-    from(#bbb), to(#999));
+            from(#bbb), to(#999));
 }
-.quiz-wrapper{
+
+.quiz-wrapper {
     position: relative;
     height: 150px;
     margin: 30px 0 60px 0;
 }
-.rad_butn{
+
+.rad_butn {
     trangsform: scale(200%);
     margin: 0 30px 0 -20px;
 }
-#results{
+
+#results {
     margin-top: 15px;
     padding: 20px;
 }
-.slide{
+
+.slide {
     positon: absolute;
     left: 0px;
     top: 0px;
@@ -81,21 +96,74 @@ button:hover{
     opacity: 0;
     transition: opacity 0.5s;
 }
-.active-slide{
+
+.active-slide {
     opacity: 1;
     z-index: 2;
 }
-#footer{
+
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 40px;
     text-shadow: 0px 1px 0px #fff;
     background-image: -webkit-gradient(linear, left top, left bottom,
-from(#ccc), to(#999));
+            from(#ccc), to(#999));
 }
-#footer h5{
+
+#footer h5 {
     text-align: center;
     margin-top: 10px;
     font-size: 15px;
+}
+
+/* ================= COUNTDOWN TIMER =================== */
+h2 {
+    color: #333;
+    /* //Set text colour */
+    font-weight: 100;
+    /* // Set font thickness */
+    font-size: 40px;
+    /* // Set font size */
+    margin: 40px 0px 20px;
+    /* // Set margins (TRBL) */
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    /* //Set font face */
+    color: #fff;
+    /* //Set text colour to white */
+    display: inline-block;
+    /* // Set display property */
+    font-weight: 100;
+    /* //Set font thickness */
+    text-align: center; /* //Align text to the centre */
+    font-size: 30px; /* //Set font size */
+}
+
+#clockdiv>div {
+    padding: 10px; /* //Set space around the element to 10 pixels */
+    border-radius: 100px; /* // Make borders rounded */
+    background-image: -webkit-gradient(linear, left top, left bottom,
+            from(#ccc), to(#999)); /* // Set background to a graduated colour */
+    display: inline-block; /* // Set display property */
+    border: solid 1px #333;
+    /* //Make a solid border around the element of 1 pixel wide and in a dark
+    grey colour */ 
+    width: 100px;/*  //Set the width of the element */
+    height: 100px; /* //Set the height of the element */
+}
+
+#clockdiv div>span {
+    padding: 15px; /* //Set space around the element to 15 pixels */
+    border-radius: 3px; /* Make border slightly rounds at corners */
+    background: #333;/*  //Set background colour to dark grey */
+    display: inline-block; /* //Set display property to inline */
+}
+
+.smalltext {
+    padding-top: 3px; /* //Set space at the top of the element to 3 pixels */
+    font-size: 16px; /* //Set the font size to 16 pixels */
 }

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- không được zoom màn hình từ thiết bị mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- không được zoom màn hình từ thiết bị mobile -->
     <link rel="stylesheet" href="css/quiz_app.css">
     <title>Question Time</title>
     <script type="text/javascript" src="json/questions.json"></script>
 </head>
+
 <body>
     <div id="header">
         <h1>Question Time<br>The Quiz App</h1>
@@ -15,13 +18,38 @@
     <div class="quiz-wrapper">
         <div id="quiz"></div>
     </div>
-    <button id="previous"><p>Previous Question</p></button>
-    <button id="next"><p>Next Question</p></button>
-    <button id="submit"><p>Submit Quiz</p></button>
-    <div id="results"></div>
+    <button id="previous">
+        <p>Previous Question</p>
+    </button>
+    <button id="next">
+        <p>Next Question</p>
+    </button>
+    <button id="submit">
+        <p>Submit Quiz</p>
+    </button>
+    <div id="results">
+        <h2>Countdown Timer</h2>
+        <div id="clockdiv"></div>
+        <!--  //The wrapper where the countdown timer will reside -->
+        <div>
+            <!--  // A label to show where ‘Minutes’ will be displayed -->
+            <span class="minutes"></span>
+            <!-- //This is where the number of minutes for our countdown will reside -->
+        </div>
+        <div>
+            <div class="smalltext">Seconds</div>
+            <!--  //A label to show where ‘Seconds’ will be displayed -->
+            <span class="seconds"></span>
+            <!--  //This is where the number of seconds for our countdown will reside -->
+        </div>
+    </div>
+    <div class="smalltext">Minutes</div>
+    </div>
     <div id="footer">
         <h5>Written by LamVuThanhTai &copy Copyright May 2022</h5>
     </div>
     <script src="js/quiz_app.js"></script>
+    <script src="js/countdown.js"></script>
 </body>
+
 </html>
