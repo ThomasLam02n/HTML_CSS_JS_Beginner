@@ -1,7 +1,9 @@
 
 .box {
-    width: 50vw;
-    height: 100vh;
-    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color: violet;
+    padding: 50px;
+    box-sizing: border-box;
 }
-
