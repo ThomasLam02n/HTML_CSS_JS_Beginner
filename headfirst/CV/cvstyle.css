@@ -1,28 +1,82 @@
-*{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-ul {
-    list-style: none;
-}
-
 
 body {
     font-size: 16px;
-    line-height: 1.9;
-    font-family: Helvetica,sans-serif;
-    margin: 30px auto;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.3;
     width: 1000px;
+    margin: 20px 300px 20px 250px;
+    box-sizing: border-box;
 }
 
-header {
-    display: block;
+header{
+    padding-bottom: 60px;
 }
 
 .avatar {
     float: left;
+    padding-right: 215px;
 }
 
-.layout {
-    
+.lefthand {
+    float: left;
+    padding-right: 50px;
+
 }
+
+.righthand {
+    float: left;
+    padding-right: 100px;
+}
+
+.skill {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hobby {
+    padding-bottom: 50px;
+}
+
+.reference p {
+    padding-top: 50px;
+}
+
+.education {
+    padding-top: 10px;
+}
+
+.experience {
+    padding-top: 10px;
+}
+
+
+footer li {
+    float: left;
+    padding-top: 20px;
+}
+
+footer h2 {
+    margin-right: 200px;
+    float:left;
+    padding-top: 50px;
+}
+
+footer h2 {
+    margin-left: 550px;
+}
+
+hr {
+    background-color:cadetblue;
+    height: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+

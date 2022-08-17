@@ -1,11 +1,6 @@
 .header {
     width: 100%;
-    height: 100px;
-    background-color: red;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 10px dashed #ccc;
-    background-clip: content-box;
+    height: 100vh;
+    background-image:url(https://thumbs.dreamstime.com/b/orange-black-dog-paw-prints-tile-pattern-repeat-background-seamless-repeats-56349888.jpg);
+    background-size: 100px;
 }
-
-
