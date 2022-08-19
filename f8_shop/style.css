@@ -1,6 +1,8 @@
 .header {
     width: 100%;
     height: 100vh;
-    background-image:url(https://thumbs.dreamstime.com/b/orange-black-dog-paw-prints-tile-pattern-repeat-background-seamless-repeats-56349888.jpg);
-    background-size: 100px;
+    background-image:url(https://nld.mediacdn.vn/2020/1/2/webbk7djd-15779493733281086101709.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: cover;
 }
