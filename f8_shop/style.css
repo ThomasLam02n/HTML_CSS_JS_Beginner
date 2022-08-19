@@ -3,6 +3,7 @@
     height: 100vh;
     background-image:url(https://nld.mediacdn.vn/2020/1/2/webbk7djd-15779493733281086101709.jpg);
     background-repeat: no-repeat;
-    /* background-size: 100%; */
-    background-size: cover;
+    background-size: 300px;
+    background-position: 0 0; 
 }
+
