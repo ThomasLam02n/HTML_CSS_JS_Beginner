@@ -15,6 +15,7 @@ body {
 
 header{
     padding-bottom: 60px;
+    
 }
 
 .avatar {
@@ -75,8 +76,15 @@ hr {
     height: 5px;
 }
 
-li{
+li {
     list-style: none;
 }
 
+.education li {
+    list-style:circle;
+}
+
+.righthand h2 {
+    margin-right: 30px;
+}
 
