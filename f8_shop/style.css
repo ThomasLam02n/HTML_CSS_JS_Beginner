@@ -1,37 +1,11 @@
-/* .box {
-    width: 50%;
-    height: 200px;
-    background-color: violet;
+h1 {
+    background-color: black;
+    color: white;
+    padding: 0px 16px;
+    position: sticky;
+    top: 0px;
 }
 
-.box::before {
-    content: "before";
-    display: block;
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
-} 
-
-.box::after {
-    content: "after";
-    display: block;
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
-} */
-
-/* h1::first-letter {
-    font-size: 50px;
-    color: red;
-} */
-
-/* h1::first-line {
-    color: blue;
-} */
-
-::selection {
-    background-color: violet;
-    color: green;
+ul{
+    height: 10000px;
 }
-
-
