@@ -1,0 +1,45 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0,
+     #ff6433,#f6402d);
+}
+
+.hearder__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hearder-navbar__list {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
+}
+
+.hearder-navbar__item {
+    margin: 0 8px;
+    position: relative;
+}
+
+.hearder-navbar__item,
+.hearder-navbar__item--link {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.hearder-navbar__item--strong {
+    font-weight: 800;
+}
+
+.hearder-navbar__item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 2px solid #fa735d;
+    height: 16px;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%); /* trừ 50% tức là -50% của chiều cao chính nó (tức 8x) */
+}
