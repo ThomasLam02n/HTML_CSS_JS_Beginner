@@ -24,6 +24,10 @@
     display: block;
 }
 
+.header-navbar__item--has-Notifycation:hover .header__notify{
+    display: block;
+}
+
 .header-navbar__item,
 .header-navbar__item--link {
     display: inline-block;
@@ -118,4 +122,120 @@
 
 .header-navbar__apps--link:nth-child(2){
     margin-right: 11px;
+}
+
+/* Header Notifycation */
+.header__notify {
+    position: absolute;
+    top: 135%;
+    right: 0;
+    width: 404px;
+    margin-right: 7px;
+    border: 1px solid #d3d3d3;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    display: none;
+    cursor: default;
+    transform-origin: calc(100% - 20px) top; /*(100% - 20px): vị trí tâm*/
+    animation: headerNotifyGrowth ease-in 0.25s;
+}
+
+@keyframes headerNotifyGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0); /*Phóng to - thu nhỏ*/
+    }
+    to {
+        opacity: 1;
+        transform: scale(1); /*Phóng to - thu nhỏ*/
+    }
+}
+
+.header__notify::after { /* Vá chỗ hỡ */
+    content: "";
+    position: absolute; /*Vì là phần tử giả nên phải khai báo lại*/
+    width: 100%;
+    height: 20px;
+    left: 0;
+    top: -13px;
+}
+
+.header__notify::before {
+    content: "";
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    width: 1px;
+    top: -20px;
+    right: 0;
+    margin-right: 26px;
+}
+
+.header__notify-header {
+    height: 40px;
+    background-color: var(--white-color);
+}
+
+.header__notify-header h3 {
+    color: #999;
+    margin: 0 0 0 12px;
+    font-size: 1.4rem;
+    line-height: 40px;
+
+}
+
+.header__notify-list {
+    padding-left: 0;
+}
+
+.header__notify-item {
+    background-color: #fff0ee;
+}
+
+.header__notify-item:hover {
+    background-color: #f7f7f7;
+}
+
+.header__notify-link {
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.header__notify-img {
+    width: 48px;
+}
+
+.header__notify-info {
+    margin-left: 12px;
+}
+
+.header__notify-name {
+    display: block;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    font-weight: 400;
+    margin-bottom: 10px;    
+}
+
+.header__notify-description {
+    display: block;
+    font-size: 1.2rem;
+    color: #888;  
+}
+
+.header__notify-footer {
+    display: flex;
+}
+
+.header__notify-footer:hover {
+    background-color: #f7f7f7;
+}
+
+.header__notify-btn {
+    text-decoration: none;
+    margin: auto;
+    padding: 8px 90px;
+    color: #999;
+    font-weight: 700;
 }
