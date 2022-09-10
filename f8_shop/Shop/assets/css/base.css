@@ -1,9 +1,16 @@
 :root {
+    /* color */
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
     --primary-color: #f53e2d;
     --border-color: #dbdbdb;
+
+    /* height */
+    --header-height: 120px;
+    --navbar-height: 24px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+
 }
 
 * {
