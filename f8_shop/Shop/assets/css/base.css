@@ -46,6 +46,7 @@ html {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -55,6 +56,7 @@ html {
     from {
         transform: scale(var(--growth-from));
     }
+
     to {
         transform: scale(var(--growth-to));
     }
@@ -81,8 +83,8 @@ html {
 .modal__body {
     /* width: 300px;
     height: 300px; */
-    --growth-from : 0.7;
-    --growth-to : 1;
+    --growth-from: 0.7;
+    --growth-to: 1;
     background-color: var(--white-color);
     margin: auto;
     z-index: 1;
