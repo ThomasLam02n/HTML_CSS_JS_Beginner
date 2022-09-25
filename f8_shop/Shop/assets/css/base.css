@@ -24,7 +24,7 @@ html {
     box-sizing: border-box;
 }
 
-/* Chuẩn bị để tương thích cho nhiều màn hình */
+/* Chuẩn bị để tương thích cho nhiều màn hình/ RESPONSIVE*/
 
 .grid {
     width: 1200px;
@@ -39,6 +39,21 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+/* TEST Responesive */
+.grid__column-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+
+.grid__column-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
 }
 
 /* Animation */
