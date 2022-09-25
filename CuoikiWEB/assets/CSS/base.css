@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@font-face {
+    font-family: font_dancing;
+    src: url(/assets/fronts/DancingScript-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root {
+    --white-color: #ffff;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
