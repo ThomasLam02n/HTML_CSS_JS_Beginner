@@ -8,8 +8,11 @@
     font-size: normal;
 }
 
+/* set up */
+
 :root {
     --white-color: #ffff;
+    --navbar-hover: #D8334A;
 }
 
 * {
@@ -23,3 +26,41 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+/* Modal */
+.header-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.header-modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -2;
+}

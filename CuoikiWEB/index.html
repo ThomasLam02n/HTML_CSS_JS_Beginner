@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
+    <link rel="stylesheet" href="./assets/CSS/animate.css">
+    <link rel="stylesheet" href="./assets/CSS/base.css">
+    <link rel="stylesheet" href="./assets/CSS/main.css">
     <link rel="stylesheet" href="./assets/Bootstraps/bootstrap.css">
     <link rel="stylesheet" href="./assets/CSS/animate.css">
     <link rel="stylesheet" href="./assets/fronts/fontawesome-free-6.2.0-web/css/all.min.css">
@@ -12,9 +15,6 @@
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/js/wow.js">
-    <link rel="stylesheet" href="./assets/CSS/animate.css">
-    <link rel="stylesheet" href="./assets/CSS/base.css">
-    <link rel="stylesheet" href="./assets/CSS/main.css">
 </head>
 <body>
     <div class="myApp">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-6">
                     <ul class="navbar__list navbar__list--line">
-                        <li class="navbar__item">
+                        <li class="navbar__item navbar__item--line">
                             <a href="" class="navbar-item-link">
                                 Main
                             </a>
@@ -54,19 +54,95 @@
                 </div>
                 <div class="col-3">
                     <ul class="navbar__list">
-                        <li class="navbar__item">EN</li>
+                        <li class="navbar__item">
+                            EN
+                            <i class="fa-solid fa-caret-down"></i>
+                        </li>
                         <li class="navbar__item">Login</li>
                     </ul> 
                 </div>
             </div>
             <div class="raw navbar-travel">
-                <div class="col-1">
-                    <h1>Travel</h1>
+                <div class="raw navbar-travel__logo-wrap">
+                    <div class="navbar-travel__logo">TaiTravel</div>
                 </div>
             </div>
+            <div class="container raw navbar-calendar">
+                <div class="col-lg-10 navbar-calendar-wrap">
+                    <ul class="navbar__calendar-list">
+                        <li class="navbar__calendar-item">
+                            People
+                            <i class="fa-solid fa-person"></i>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Time
+                            <i class="fa-solid fa-clock"></i>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Hotel
+                            <i class="fa-solid fa-hotel"></i>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Traffic
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Date
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Search
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="header-modal">
+                <div class="header-modal__overlay">
+                    
+                </div>
+            </div> -->
         </div>
-        <div class="background__location container-fluid background__header">
-            
+        <div class="container-fluid background__location">
+            <div class="container raw location__header">
+                <h1 class="location__heading">Popular Location</h1>
+            </div>
+            <div class="container raw location__body">
+                <div class="col-10 location__info">
+                    <ul class="location__list">
+                        <li class="location__item">
+                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                            <span class="location__item-name">
+                                Bergen
+                            </span>
+                        </li>
+                        <li class="location__item">
+                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                            <span class="location__item-name">
+                                Bergen
+                            </span>
+                        </li>
+                        <li class="location__item">
+                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                            <span class="location__item-name">
+                                Bergen
+                            </span>
+                        </li>
+                        <li class="location__item">
+                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                            <span class="location__item-name">
+                                Bergen
+                            </span>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="background__guider">
             
