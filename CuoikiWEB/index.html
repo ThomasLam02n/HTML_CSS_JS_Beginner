@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel</title>
-    <link rel="stylesheet" href="./assets/CSS/animate.css">
-    <link rel="stylesheet" href="./assets/CSS/base.css">
-    <link rel="stylesheet" href="./assets/CSS/main.css">
     <link rel="stylesheet" href="./assets/Bootstraps/bootstrap.css">
     <link rel="stylesheet" href="./assets/CSS/animate.css">
     <link rel="stylesheet" href="./assets/fronts/fontawesome-free-6.2.0-web/css/all.min.css">
@@ -15,6 +12,9 @@
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/js/wow.js">
+    <link rel="stylesheet" href="./assets/CSS/animate.css">
+    <link rel="stylesheet" href="./assets/CSS/base.css">
+    <link rel="stylesheet" href="./assets/CSS/main.css">
 </head>
 <body>
     <div class="myApp">
@@ -62,9 +62,13 @@
                     </ul> 
                 </div>
             </div>
-            <div class="raw navbar-travel">
+            <div class="container-fluid navbar-travel">
                 <div class="raw navbar-travel__logo-wrap">
-                    <div class="navbar-travel__logo">TaiTravel</div>
+                    <div class="navbar-travel__logo">
+                        <span>
+                            TaiTravel
+                        </span>
+                    </div>
                 </div>
             </div>
             <div class="container raw navbar-calendar">
@@ -102,54 +106,90 @@
                     </ul>
                 </div>
             </div>
-            <!-- <div class="header-modal">
-                <div class="header-modal__overlay">
-                    
-                </div>
-            </div> -->
         </div>
-        <div class="container-fluid background__location">
+        <div class="container-fluid location">
             <div class="container raw location__header">
-                <h1 class="location__heading">Popular Location</h1>
+                <h1 class="location__heading">Popular Destinations</h1>
             </div>
             <div class="container raw location__body">
-                <div class="col-10 location__info">
+                <div class="col-12 location__info">
                     <ul class="location__list">
-                        <li class="location__item">
-                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
-                            <span class="location__item-name">
-                                Bergen
-                            </span>
-                        </li>
-                        <li class="location__item">
-                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
-                            <span class="location__item-name">
-                                Bergen
-                            </span>
-                        </li>
-                        <li class="location__item">
-                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
-                            <span class="location__item-name">
-                                Bergen
-                            </span>
-                        </li>
-                        <li class="location__item">
-                            <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
-                            <span class="location__item-name">
-                                Bergen
-                            </span>
-                        </li>
-                        
+                        <a href="#">
+                            <li class="location__item">
+                                <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                                <div class="location__item-text">
+                                    <span class="location__item-city">
+                                        Ho Chi Minh
+                                    </span>
+                                    <h1 class="location__item-name">
+                                        Bergen
+                                    </h1>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="location__item">
+                                <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                                <div class="location__item-text">
+                                    <span class="location__item-city">
+                                        Ho Chi Minh
+                                    </span>
+                                    <h1 class="location__item-name">
+                                        Bergen
+                                    </h1>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="location__item">
+                                <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                                <div class="location__item-text">
+                                    <span class="location__item-city">
+                                        Ho Chi Minh
+                                    </span>
+                                    <h1 class="location__item-name">
+                                        Bergen
+                                    </h1>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="location__item">
+                                <img class="location__item-img" src="./assets/img/fistpage-2.jpg" alt="">
+                                <div class="location__item-text">
+                                    <span class="location__item-city">
+                                        Ho Chi Minh
+                                    </span>
+                                    <h1 class="location__item-name">
+                                        Bergen
+                                    </h1>
+                                </div>
+                            </li>
+                        </a>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="background__guider">
+        <div class="introduce">
+            <div class="container-fluid introduce__background">
+                <div class="introduce__background-content">
+                    <span class="introduce__background-content-heading">Maldives Deluxe Package</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor. Suspendisse potenti. In faucibus massa arcu, <br>
+                        vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus tincidunt ultrices, tortor augue gravida lectus, et efficitur enim justo vel ligula.
+                    </p>
+                    <div class="introduce__background-logo">
+                        <i class="fa-solid fa-dharmachakra"></i>
+                        <hr class="introduce__background-content-line">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviewer">
             
         </div>
-        <div class="background__footer">
+        <footer class="footer">
             
-        </div>
+        </footer>
     </div>
 </body>
 </html>
