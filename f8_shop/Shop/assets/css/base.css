@@ -6,6 +6,9 @@
     --primary-color: #f53e2d;
     --border-color: #dbdbdb;
 
+    /* Box shadow */
+    --boxshadow: 0 1px 2px #ccc;
+
     /* height */
     --header-height: 120px;
     --navbar-height: 24px;
@@ -180,6 +183,7 @@ html {
     padding: 8px 16px;
     list-style: none;
     display: none;
+    box-shadow: var(--boxshadow);
 }
 
 .select-input__link {
@@ -193,3 +197,4 @@ html {
 .select-input__link:hover {
     color: var(--primary-color);
 }
+

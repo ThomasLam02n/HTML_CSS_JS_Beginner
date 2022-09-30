@@ -1,3 +1,7 @@
+body {
+    background-color: var(--bacground-color);
+}
+
 /* topbar */
 .container-fluid.background__header {
     background-image: url(/assets/img/firstpage.jpg);
@@ -267,3 +271,46 @@
 }
 
 /* Review */
+.reviewer {
+    padding: 76px;
+}
+
+.reviewer-content {
+    display: flex;
+    align-items: center;
+    min-width: 30%;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    padding: 12px 12px;
+}
+
+.reviewer-content_avatar-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.reviewer-content-info {
+    margin-left: 8px;
+}
+
+.reviewer-content-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.reviewer-content-icon {
+    padding: 4px 0;
+}
+
+.reviewer-content-icon-star {
+    color: goldenrod;
+}
+
+.reviewer-content_icon-star-disabled.reviewer-content-icon-star {
+    color: #ccc;
+}
+
+.reviewer-content-comment {
+    font-size: 1.1rem;
+}
