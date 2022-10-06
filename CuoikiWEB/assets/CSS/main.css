@@ -47,6 +47,105 @@ body {
     z-index: 3;
 }
 
+.navbar__item-selection-translate {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar__item-selection-translate:hover .navbar__item-translate {
+    display: block;
+}
+
+.navbar__item-translate {
+    position: absolute;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    display: none;
+    box-shadow: 0 1px 3px #ccc;
+}
+
+.navbar__item-translate-list {
+    padding-left: 0;
+    list-style: none;
+ 
+}
+
+.navbar__item-translate-item {
+    padding: 6px 14px;
+}
+
+.navbar__item-translate-item:hover {
+    background-color: #e2e3e4;
+}
+
+.navbar__item-translate-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.navbar__item-translate-link:hover {
+    color: var(--navbar-hover);
+    text-decoration: none;
+}
+
+
+.navbar__item-title {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar__item-title::after {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: -10px;
+    width: 100%;
+    height: 10px;
+    background-color: transparent;
+}
+
+.navbar__item-title:hover 
+.navbar__item-download{
+    display: block;
+}
+
+.navbar__item-download {
+    position: absolute;
+    top: calc(100% + 5px);
+    right: 10px;
+    padding: 4px 4px 10px 4px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    box-shadow: 0 1px 5px #ccc;
+    display: none;
+}
+
+.navbar__item-download-qr {
+    width: 168px;
+}
+
+.navbar__item-download-link {
+    text-decoration: none;
+    color: transparent !important;
+}
+
+.navbar__item-download-app {
+    display: inline-flex;
+    justify-content: space-between;
+    height: 16px;
+}
+
+.navbar__item-download-app-apple {
+    margin-left: 10px;
+}
+
+.navbar__item-download-app-chplay {
+    margin-right: 10px;
+}
+
+
 .navbar-item-link {
     color: var(--white-color);
     padding-bottom: 16px;
@@ -65,6 +164,7 @@ body {
     margin-left: -15px;
     display: flex;
     position: relative;
+    text-align: center;
     top: -60px;
     z-index: 2;
 }
@@ -83,6 +183,7 @@ body {
     font-weight: 400;
     font-family: font_dancing;
     color: var(--white-color);
+    
 }
 
 /* navbar search */
@@ -272,16 +373,14 @@ body {
 
 /* Review */
 .reviewer {
-    padding: 76px;
+    margin: 0;
+    padding: 28px;
+    background-color: #e2e3e4;
 }
-
-.reviewer-content {
+.reviewer-item {
     display: flex;
     align-items: center;
-    min-width: 30%;
-    background-color: var(--white-color);
-    border-radius: 2px;
-    padding: 12px 12px;
+    padding: 8px 12px;
 }
 
 .reviewer-content_avatar-img {
@@ -313,4 +412,37 @@ body {
 
 .reviewer-content-comment {
     font-size: 1.1rem;
+}
+
+/* footer */
+.footer {
+    padding-top: 12px;
+    background-color: var(--white-color) ;
+}
+
+.footer__heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.footer__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer__item {
+    font-size: 1.2rem;
+}
+
+.footer__ending {
+    padding: 12px;
+    background-color: #c22f44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__ending-text {
+    font-size: 1rem;
+    color: var(--white-color);
 }

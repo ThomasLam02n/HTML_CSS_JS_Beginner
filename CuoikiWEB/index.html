@@ -25,7 +25,22 @@
                         <li class="navbar__item">
                             <i class="navbar__item-icon fa-brands fa-canadian-maple-leaf"></i>
                         </li>
-                        <li class="navbar__item">Enjoy your traveling !</li>
+                        <li class="navbar__item navbar__item-title">
+                            Enjoy your traveling !
+                            <div class="navbar__item-download">
+                                <img src="./assets/img/qr.png" alt="" class="navbar__item-download-qr">
+                                <a href="" class="navbar__item-download-link">
+                                    <div class="navbar__item-download-app">
+                                        <img src="./assets/img/apple.png" alt="" class="navbar__item-download-app-apple">
+                                    </div>
+                                </a>
+                                <a href="" class="navbar__item-download-link">
+                                    <div class="navbar__item-download-app">
+                                        <img src="./assets/img/chplay.png" alt="" class="navbar__item-download-app-chplay">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-6">
@@ -54,21 +69,41 @@
                 </div>
                 <div class="col-3">
                     <ul class="navbar__list">
-                        <li class="navbar__item">
+                        <li class="navbar__item navbar__item-selection-translate">
                             EN
                             <i class="fa-solid fa-caret-down"></i>
+                            <div class="navbar__item-translate">
+                                <ul class="navbar__item-translate-list">
+                                    <a href="#" class="navbar__item-translate-link">
+                                        <li class="navbar__item-translate-item">
+                                                Germany
+                                        </li>
+                                    </a>
+                                    <a href="#" class="navbar__item-translate-link">
+                                        <li class="navbar__item-translate-item">
+                                                Vietnamese
+                                        </li>
+                                    </a>
+                                    <a href="#" class="navbar__item-translate-link">
+                                        <li class="navbar__item-translate-item">
+                                                English
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
                         </li>
                         <li class="navbar__item">Login</li>
                     </ul> 
                 </div>
             </div>
-            <div class="container-fluid navbar-travel">
-                <div class="raw navbar-travel__logo-wrap">
-                    <div class="navbar-travel__logo">
-                        <span>
-                            TaiTravel
-                        </span>
-                    </div>
+            <div class="row navbar-travel">
+                <div class="col-12 navbar-travel__logo-wrap">
+                    <span class="navbar-travel__logo">
+                        Tai
+                    </span>
+                    <span class="navbar-travel__logo">
+                        Travel
+                    </span>
                 </div>
             </div>
             <div class="container raw navbar-calendar">
@@ -184,75 +219,167 @@
                 </div>
             </div>
         </div>
-        <div class="reviewer">
-            <div class="row reviewer-row">
-                <div class="col-4 reviewer-wrap">
-                    <div class="reviewer-content">
-                        <div class="reviewer-content-avatar">
-                            <img src="./assets/img/firstpage3.jpg" alt="avatar" class="reviewer-content_avatar-img">
-                        </div>
-                        <div class="reviewer-content-info">
-                            <span class="reviewer-content-name">Thomas Lâm</span>
-                            <div class="reviewer-content-icon">
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star reviewer-content_icon-star-disabled fa-solid fa-star"></i>
-                            </div>
-                            <p class="reviewer-content-comment">
-                                It is a long established fact that a reader will be distracted 
-                                by the readable content of a page when looking at its layout.
-                            </p>
-                        </div>
-                    </div>
+        <div class="container-fluid row reviewer">
+            <div class="col-lg-4 reviewer-item">
+                <div class="reviewer-content-avatar">
+                    <img src="./assets/img/firstpage3.jpg" alt="avatar" class="reviewer-content_avatar-img">
                 </div>
-                <div class="col-4 reviewer-wrap">
-                    <div class="reviewer-content">
-                        <div class="reviewer-content-avatar">
-                            <img src="./assets/img/firstpage3.jpg" alt="avatar" class="reviewer-content_avatar-img">
-                        </div>
-                        <div class="reviewer-content-info">
-                            <span class="reviewer-content-name">Thomas Lâm</span>
-                            <div class="reviewer-content-icon">
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                            </div>
-                            <p class="reviewer-content-comment">
-                                It is a long established fact that a reader will be distracted 
-                                by the readable content of a page when looking at its layout.
-                            </p>
-                        </div>
+                <div class="reviewer-content-info">
+                    <span class="reviewer-content-name">Thomas Lâm</span>
+                    <div class="reviewer-content-icon">
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star reviewer-content_icon-star-disabled fa-solid fa-star"></i>
                     </div>
+                    <p class="reviewer-content-comment">
+                        It is a long established fact that a reader will be distracted 
+                        by the readable content of a page when looking at its layout.
+                    </p>
                 </div>
-                <div class="col-4 reviewer-wrap">
-                    <div class="reviewer-content">
-                        <div class="reviewer-content-avatar">
-                            <img src="./assets/img/firstpage3.jpg" alt="avatar" class="reviewer-content_avatar-img">
-                        </div>
-                        <div class="reviewer-content-info">
-                            <span class="reviewer-content-name">Thomas Lâm</span>
-                            <div class="reviewer-content-icon">
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star fa-solid fa-star"></i>
-                                <i class="reviewer-content-icon-star reviewer-content_icon-star-disabled fa-solid fa-star"></i>
-                            </div>
-                            <p class="reviewer-content-comment">
-                                It is a long established fact that a reader will be distracted 
-                                by the readable content of a page when looking at its layout.
-                            </p>
-                        </div>
+            </div>
+            <div class="col-lg-4 reviewer-item">
+                <div class="reviewer-content-avatar">
+                    <img src="./assets/img/firstpage3.jpg" alt="avatar" class="reviewer-content_avatar-img">
+                </div>
+                <div class="reviewer-content-info">
+                    <span class="reviewer-content-name">Thomas Lâm</span>
+                    <div class="reviewer-content-icon">
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star reviewer-content_icon-star-disabled fa-solid fa-star"></i>
                     </div>
+                    <p class="reviewer-content-comment">
+                        It is a long established fact that a reader will be distracted 
+                        by the readable content of a page when looking at its layout.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 reviewer-item">
+                <div class="reviewer-content-avatar">
+                    <img src="./assets/img/firstpage3.jpg" alt="avatar" class="reviewer-content_avatar-img">
+                </div>
+                <div class="reviewer-content-info">
+                    <span class="reviewer-content-name">Thomas Lâm</span>
+                    <div class="reviewer-content-icon">
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star fa-solid fa-star"></i>
+                        <i class="reviewer-content-icon-star reviewer-content_icon-star-disabled fa-solid fa-star"></i>
+                    </div>
+                    <p class="reviewer-content-comment">
+                        It is a long established fact that a reader will be distracted 
+                        by the readable content of a page when looking at its layout.
+                    </p>
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            
+         
+        <footer class="container-fluid footer">
+            <div class="row footer-wrap">
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        About
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            Thomas Lâm
+                        </li>
+                        <li class="footer__item">
+                            Thanh Tai
+                        </li>
+                        <li class="footer__item">
+                            Thunder
+                        </li>
+                        <li class="footer__item">
+                            gammer
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        About
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            Thomas Lâm
+                        </li>
+                        <li class="footer__item">
+                            Thanh Tai
+                        </li>
+                        <li class="footer__item">
+                            Thunder
+                        </li>
+                        <li class="footer__item">
+                            gammer
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        About
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            Thomas Lâm
+                        </li>
+                        <li class="footer__item">
+                            Thanh Tai
+                        </li>
+                        <li class="footer__item">
+                            Thunder
+                        </li>
+                        <li class="footer__item">
+                            gammer
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        About
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            Thomas Lâm
+                        </li>
+                        <li class="footer__item">
+                            Thanh Tai
+                        </li>
+                        <li class="footer__item">
+                            Thunder
+                        </li>
+                        <li class="footer__item">
+                            gammer
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        About
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            Thomas Lâm
+                        </li>
+                        <li class="footer__item">
+                            Thanh Tai
+                        </li>
+                        <li class="footer__item">
+                            Thunder
+                        </li>
+                        <li class="footer__item">
+                            gammer
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer__ending">
+                <span class="footer__ending-text">@2022-TaiTravel Company-By LamVuThanhTai</span>
+            </div>
         </footer>
     </div>
 </body>
