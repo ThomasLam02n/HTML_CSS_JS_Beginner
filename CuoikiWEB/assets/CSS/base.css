@@ -14,6 +14,7 @@
     --white-color: #ffff;
     --navbar-hover: #D8334A;
     --bacground-color: #A5A7AA;
+    --text-color: #555560;
 }
 
 * {
@@ -63,8 +64,18 @@ html {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
 }
 
-/* Responsive */
+/* Button */
+.btn {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    font-weight: 500;
+    background-color: #ccc;
+}
+
+.btn-primary-color {
+    background-color: var(--navbar-hover);
+}

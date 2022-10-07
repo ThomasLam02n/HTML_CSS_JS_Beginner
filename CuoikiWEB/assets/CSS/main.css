@@ -420,6 +420,16 @@ body {
     background-color: var(--white-color) ;
 }
 
+.footer-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content {
+    padding: 0;
+    
+}
+
 .footer__heading {
     font-size: 1.4rem;
     font-weight: 600;
@@ -452,28 +462,42 @@ body {
     background-color: var(--white-color);
     margin: auto;
     padding: 16px;
-}
-
-.modal__auth-container {
-    
+    border-radius: 2px;
 }
 
 .modal__auth-heading {
     display: flex;
+    color: var(--text-color);
 }
 
-.modal__auth-heading-signin {
-
+.modal__auth-heading h3 {
+    font-size: 1.9rem;
+    font-weight: 600;
 }
 
-.modal__auth-form {
+.modal__auth-heading-sign--active {
+    color: var(--navbar-hover);
+}
 
+.modal__auth-heading-signup {
+    margin-left: 16px;
 }
 
 .modal__auth-form-label {
-
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 12px;
+    color: var(--text-color);
 }
 
 .modal__auth-form-input {
+    display: block;
+    width: 183px;
+    height: 30px;
+}
 
+.modal__auth-button {
+    text-align: end;
+    margin-top: 18px;
 }
