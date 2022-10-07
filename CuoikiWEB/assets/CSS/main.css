@@ -114,7 +114,7 @@ body {
 .navbar__item-download {
     position: absolute;
     top: calc(100% + 5px);
-    right: 10px;
+    right: 4px;
     padding: 4px 4px 10px 4px;
     background-color: var(--white-color);
     border-radius: 2px;
@@ -374,7 +374,7 @@ body {
 /* Review */
 .reviewer {
     margin: 0;
-    padding: 28px;
+    padding: 88px 12px;
     background-color: #e2e3e4;
 }
 .reviewer-item {
@@ -445,4 +445,35 @@ body {
 .footer__ending-text {
     font-size: 1rem;
     color: var(--white-color);
+}
+
+/* Login modal */
+.modal__body {
+    background-color: var(--white-color);
+    margin: auto;
+    padding: 16px;
+}
+
+.modal__auth-container {
+    
+}
+
+.modal__auth-heading {
+    display: flex;
+}
+
+.modal__auth-heading-signin {
+
+}
+
+.modal__auth-form {
+
+}
+
+.modal__auth-form-label {
+
+}
+
+.modal__auth-form-input {
+
 }
