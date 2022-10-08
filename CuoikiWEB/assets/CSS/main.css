@@ -188,26 +188,24 @@ body {
 
 /* navbar search */
 .navbar-calendar {
-    display: flex;
-    justify-content: center;
     position: relative;
-    top: -15%;
+    top: -13%;
     z-index: 2;
 }
 
 .navbar__calendar-list {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding-left: 0;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .navbar__calendar-item {
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--white-color);
-    padding: 22px 38.5px;
+    padding: 16px;
     background-color: #f4c693;
 }
 
@@ -224,6 +222,49 @@ body {
 .navbar__calendar-item:hover {
     color: var(--navbar-hover);
     cursor: pointer;
+}
+
+.navbar__calendar-item-wrap-input {
+    position: relative;
+}
+
+.navbar__calendar-item-input {
+    width: 101px;
+    height: 26px;
+    border: none;
+    outline: none;
+}
+
+.navbar__calendar-item-input:focus~.navbar__calendar-item-select{
+    display: block;
+    color: var(--navbar-hover);
+}
+
+.navbar__calendar-item-select {
+    position: absolute;
+    width: 100%;
+    top: 26px;
+    right: 0;
+    border-radius: 2px;
+    overflow: hidden;
+    display: none;
+}
+
+.navbar__calendar-item-select-list {
+    padding-left: 0;
+    list-style: none;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+.navbar__calendar-item-select-item {
+    font-size: 1.6rem;
+    padding: 2px 4px;
+}
+
+.navbar__calendar-item-select-item:hover {
+    color: var(--navbar-hover);
+    background-color: #E2E3E4;
 }
 
 /* Location */
@@ -500,4 +541,27 @@ body {
 .modal__auth-button {
     text-align: end;
     margin-top: 18px;
+}
+
+/* Footer */
+.footer__download-qr {
+    width: 100px;
+}
+
+.footer__download-app-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.footer__dowload-app-wrap-item {
+
+}
+
+.footer__download-link {
+    height: 18px;
+}
+
+.footer__download-app-img {
+    width: 100%;
+    height: 20%;
 }
