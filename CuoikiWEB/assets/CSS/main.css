@@ -295,9 +295,13 @@ body {
     flex-wrap: wrap;
 }
 
+.location__link {
+    margin-right: 6px;
+}
+
 .location__item {
     margin-top: 4px;
-    width: 260px;
+    width: 100%;
     height: 350px;
     position: relative;
     border-radius: 2px;
@@ -320,8 +324,10 @@ body {
 }
 
 .location__item-img {
+    background-image: url(/assets/img/firstpage.jpg);
     width: 100%;
     height: 100%;
+    background-position: center;
 }
 
 .location__item-text {
@@ -564,4 +570,16 @@ body {
 .footer__download-app-img {
     width: 100%;
     height: 20%;
+}
+
+/* Silder slick */
+.slick-prev,.slick-next {
+    font-size: 1.6rem !important;
+}
+
+.slick-arrow {
+    background-color: var(--navbar-hover);
+    border-radius: 2px;
+    padding: 30px 4px;
+    z-index: 2;
 }
