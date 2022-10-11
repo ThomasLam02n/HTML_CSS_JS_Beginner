@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tai Travel</title>
+     <!-- boostrap -->
+     <link rel="stylesheet" href="./assets/Bootstraps/bootstrap.css">
+
+     <!-- animate css -->
+     <link rel="stylesheet" href="./assets/CSS/animate.css">
+ 
+     <!-- font -->
+     <link rel="stylesheet" href="./assets/fronts/fontawesome-free-6.2.0-web/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+     <!-- slick css -->
+     <link rel="stylesheet" href="./assets/CSS/slick.css">
+     <link rel="stylesheet" href="./assets/CSS/slick-theme.css">
+     <!-- js -->
+     <link rel="stylesheet" href="./assets/js/wow.js">
+ 
+     <!-- css -->
+     <link rel="stylesheet" href="./assets/CSS/base.css">
+     <link rel="stylesheet" href="./assets/CSS/main.css">
+</head>
+<body>
+    <div class="myapp">
+        <header class="container-fluid background__header">
+            <div class="container raw navbar">
+                <div class="col-3">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <i class="navbar__item-icon fa-brands fa-canadian-maple-leaf"></i>
+                        </li>
+                        <li class="navbar__item navbar__item-title">
+                            Download app here!
+                            <div class="navbar__item-download">
+                                <img src="./assets/img/qr.png" alt="" class="navbar__item-download-qr">
+                                <a href="" class="navbar__item-download-link">
+                                    <div class="navbar__item-download-app">
+                                        <img src="./assets/img/apple.png" alt="" class="navbar__item-download-app-apple">
+                                    </div>
+                                </a>
+                                <a href="" class="navbar__item-download-link">
+                                    <div class="navbar__item-download-app">
+                                        <img src="./assets/img/chplay.png" alt="" class="navbar__item-download-app-chplay">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="navbar__list navbar__list--line">
+                        <li class="navbar__item navbar__item--line">
+                            <a href="" class="navbar-item-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/offers.html" class="navbar-item-link">
+                                Offers
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar-item-link">
+                                News
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar-item-link">
+                                About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item-selection-translate">
+                            EN
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="navbar__item-translate">
+                                <ul class="navbar__item-translate-list">
+                                    <a href="#" class="navbar__item-translate-link">
+                                        <li class="navbar__item-translate-item">
+                                                Germany
+                                        </li>
+                                    </a>
+                                    <a href="#" class="navbar__item-translate-link">
+                                        <li class="navbar__item-translate-item">
+                                                Vietnamese
+                                        </li>
+                                    </a>
+                                    <a href="#" class="navbar__item-translate-link">
+                                        <li class="navbar__item-translate-item">
+                                                English
+                                        </li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navbar__item">Login</li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="navbar-mobile">
+                
+            </div>
+            <div class="row navbar-travel">
+                <div class="col-12 navbar-travel__logo-wrap">
+                    <span class="navbar-travel__logo">
+                        Tai
+                    </span>
+                    <span class="navbar-travel__logo">
+                        Travel
+                    </span>
+                </div>
+            </div>
+            <div class="container raw navbar-calendar">
+                <div class="col-lg-12 navbar-calendar-wrap">
+                    <ul class="navbar__calendar-list">
+                        <li class="navbar__calendar-item">
+                            People
+                            <i class="fa-solid fa-person navbar__calendar-item-icon"></i>
+                            <span class="navbar__calendar-item-wrap-input">
+                                <input type="text" class="navbar__calendar-item-input">
+                                <div class="navbar__calendar-item-select">
+                                    <ul class="navbar__calendar-item-select-list">
+                                        <li class="navbar__calendar-item-select-item">1-2</li>
+                                        <li class="navbar__calendar-item-select-item">2-4</li>
+                                        <li class="navbar__calendar-item-select-item">5-10</li>
+                                        <li class="navbar__calendar-item-select-item">10-20</li>
+                                    </ul>
+                                </div>
+                            </span>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Time
+                            <i class="fa-solid fa-clock navbar__calendar-item-icon"></i>
+                            <span class="navbar__calendar-item-wrap-input">
+                                <input type="text" class="navbar__calendar-item-input">
+                                <div class="navbar__calendar-item-select">
+                                    <ul class="navbar__calendar-item-select-list">
+                                        <li class="navbar__calendar-item-select-item">1-2</li>
+                                        <li class="navbar__calendar-item-select-item">2-4</li>
+                                        <li class="navbar__calendar-item-select-item">5-10</li>
+                                        <li class="navbar__calendar-item-select-item">10-20</li>
+                                    </ul>
+                                </div>
+                            </span>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Hotel
+                            <i class="fa-solid fa-hotel navbar__calendar-item-icon"></i>
+                            <span class="navbar__calendar-item-wrap-input">
+                                <input type="text" class="navbar__calendar-item-input">
+                                <div class="navbar__calendar-item-select">
+                                    <ul class="navbar__calendar-item-select-list">
+                                        <li class="navbar__calendar-item-select-item">1-2</li>
+                                        <li class="navbar__calendar-item-select-item">2-4</li>
+                                        <li class="navbar__calendar-item-select-item">5-10</li>
+                                        <li class="navbar__calendar-item-select-item">10-20</li>
+                                    </ul>
+                                </div>
+                            </span>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Traffic
+                            <i class="fa-solid fa-plane-departure navbar__calendar-item-icon"></i>
+                            <span class="navbar__calendar-item-wrap-input">
+                                <input type="text" class="navbar__calendar-item-input">
+                                <div class="navbar__calendar-item-select">
+                                    <ul class="navbar__calendar-item-select-list">
+                                        <li class="navbar__calendar-item-select-item">1-2</li>
+                                        <li class="navbar__calendar-item-select-item">2-4</li>
+                                        <li class="navbar__calendar-item-select-item">5-10</li>
+                                        <li class="navbar__calendar-item-select-item">10-20</li>
+                                    </ul>
+                                </div>
+                            </span>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Date
+                            <i class="fa-solid fa-calendar-days navbar__calendar-item-icon"></i>
+                            <span class="navbar__calendar-item-wrap-input">
+                                <input type="text" class="navbar__calendar-item-input">
+                                <div class="navbar__calendar-item-select">
+                                    <ul class="navbar__calendar-item-select-list">
+                                        <li class="navbar__calendar-item-select-item">1-2</li>
+                                        <li class="navbar__calendar-item-select-item">2-4</li>
+                                        <li class="navbar__calendar-item-select-item">5-10</li>
+                                        <li class="navbar__calendar-item-select-item">10-20</li>
+                                    </ul>
+                                </div>
+                            </span>
+                        </li>
+                        <li class="navbar__calendar-item">
+                            Search
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid offers">
+            <div class="row">
+                <div class="col-12">
+                    
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid footer">
+            <div class="row footer-wrap">
+                <div class="col-sm-2 footer-content">
+                    <div class="footer__heading-intro">
+                        <i class="footer__heading-icon fa-brands fa-canadian-maple-leaf"></i>
+                        <span class="footer__heading-title">Tai Travel</span>
+                    </div>
+                    <p class="footer__text">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                    </p>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        Blog Posts
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <img src="./assets/img/footer_item_beach.jpg" alt="beach" class="footer__item-img">
+                            <div class="footer__item-content">
+                                <a href="#" class="footer__item-link">Travel with us this year</a>
+                                <span class="footer__item-date">july 20, 2022</span>
+                            </div>
+                        </li>
+                        <li class="footer__item">
+                            <img src="./assets/img/footer_item_beach2.jpg" alt="beach" class="footer__item-img">
+                            <div class="footer__item-content">
+                                <a href="#" class="footer__item-link">New destinations for you</a>
+                                <span class="footer__item-date">july 20, 2022</span>
+                            </div>
+                        </li>
+                        <li class="footer__item">
+                            <img src="./assets/img/footer_item_board.jpg" alt="beach" class="footer__item-img">
+                            <div class="footer__item-content">
+                                <a href="#" class="footer__item-link">Travel with us this year</a>
+                                <span class="footer__item-date">july 20, 2022</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        Tags
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-btn footer__item-link-left">Food</a>
+                            <a href="#" class="footer__item-btn footer__item-link-right">Fastion</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-btn footer__item-link-left">Beach</a>
+                            <a href="#" class="footer__item-btn footer__item-link-right">Entertainment</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-btn footer__item-link-left">Enjoy on the sand</a>
+                            <a href="#" class="footer__item-btn footer__item-link-right">Hotel five star</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__item-btn footer__item-link-left">Resort</a>
+                            <a href="#" class="footer__item-btn footer__item-link-right">sufwave by motor</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        Contact info
+                    </span>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <i class="footer__item-icon fa-solid fa-signs-post"></i>
+                            <span class="footer__item-address">224/1A Luu Quan Truong,Tan Binh</span>
+                        </li>
+                        <li class="footer__item">
+                            <i class="footer__item-icon fa-solid fa-phone-volume"></i>
+                            <span class="footer__item-address">+84 787903125</span>
+                        </li>
+                        <li class="footer__item">
+                            <i class="footer__item-icon fa-solid fa-envelope"></i>
+                            <span class="footer__item-address">lamvuthanhtai14042002@gmail.com</span>
+                        </li>
+                        <li class="footer__item">
+                            <i class="footer__item-icon fa-solid fa-earth-americas"></i>
+                            <span class="footer__item-address">www.thichcodeweb.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 footer-content">
+                    <span class="footer__heading">
+                        Download App
+                    </span>
+                    <div class="footer__download-app-wrap">
+                         <img src="./assets/img/qr.png" alt="" class="footer__download-qr">
+                        <div class="footer__dowload-app-wrap-item">
+                            <a href="" class="footer__download-link">
+                                <img src="./assets/img/apple.png" alt="" class="footer__download-app-img footer__download-app-apple">
+                            </a>
+                            <a href="" class="footer__download-link">
+                                <img src="./assets/img/chplay.png" alt="" class="footer__download-app-img footer__download-app-chplay">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer__ending">
+                <span class="footer__ending-text">@2022-TaiTravel Company-By LamVuThanhTai</span>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/assets/JS/slick.min.js"></script>
+    <script src="./assets/JS/slider.js"></script>
+</body>
+</html>

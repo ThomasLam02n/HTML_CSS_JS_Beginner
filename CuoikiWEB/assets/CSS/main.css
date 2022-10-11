@@ -26,11 +26,13 @@ body {
 
 .navbar {
     border-bottom: 2px solid var(--white-color);
-    position:static;
+    position: fixed;
     top: 0px;
     right: 0;
     left: 0;
     border-radius: 2px;
+    z-index: 3;
+    /* display: none; */
 }
 
 .navbar__list {
@@ -165,8 +167,9 @@ body {
     display: flex;
     position: relative;
     text-align: center;
-    top: -60px;
+    top: 10px;
     z-index: 2;
+    line-height: 120px;
 }
 
 .navbar-travel__logo-wrap {
