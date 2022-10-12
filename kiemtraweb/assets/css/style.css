@@ -1,5 +1,9 @@
 body {
-    background-color: #e2e7ea;
+    background-image: url(/assets/img/backgroundapp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /* Header */
@@ -16,12 +20,13 @@ body {
     align-items: center;
 }
 
-.header_item {
-
+.header_item__logo {
+    position: relative;
+    left: 38px;
 }
 
 .header_item-img {
-    width: 170px;
+    width: 90px;
     display: block;
 }
 
@@ -30,7 +35,7 @@ body {
 }
 
 .header_item {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -111,7 +116,7 @@ body {
 }
 
 .slider__item2 {
-    background-image: url(/assets/img/slider1.jpg);
+    background-image: url(/assets/img/slider2.jpg);
     width: 100%;
     height: 362px;
     background-repeat: no-repeat;
@@ -119,7 +124,7 @@ body {
 }
 
 .slider__item3 {
-    background-image: url(/assets/img/slider1.jpg);
+    background-image: url(/assets/img/slider3.jpg);
     width: 100%;
     height: 362px;
     background-repeat: no-repeat;
@@ -127,7 +132,7 @@ body {
 }
 
 .slider__item4 {
-    background-image: url(/assets/img/slider1.jpg);
+    background-image: url(/assets/img/slider4.jpg);
     width: 100%;
     height: 362px;
     background-repeat: no-repeat;
@@ -147,7 +152,11 @@ body {
 .research {
     padding-top: 48px;
     background-color: var(--white-color);
-    padding-bottom: 48px;
+    padding-bottom: 12px;
+}
+
+.research-item {
+    width: 320px;
 }
 
 .research__intro {
@@ -161,6 +170,10 @@ body {
     font-weight: 700;
     border-bottom: 2px dotted var(--primary-color);
     line-height: 60px;
+}
+
+.research__title--black {
+    color: #323232;
 }
 
 .research__content {
@@ -191,6 +204,43 @@ body {
     font-weight: 500;
     background-color: #ed735b;
 }
+
+.research__btn:hover {
+    filter: brightness(120%);
+}
+
+.research__btn--2 {
+    background-color: #87bfcc;
+}
+
+.research__btn--3 {
+    background-color: #cdca87;
+}
+
+.research__btn--4 {
+    background-color: #cc87b6;
+}
+
+.research__btn--5 {
+    background-color: #d7a101;
+}
+
+.research__btn--6 {
+    background-color: #5ca15e;
+}
+
+.research__btn--7 {
+    background-color: #ccbc88;
+}
+
+.research__btn--8 {
+    background-color: #9eb5a5;
+}
+
+.research__btn--9 {
+    background-color: #87aecd;
+}
+
 
 /* Support */
 .latest-item {
@@ -232,7 +282,7 @@ body {
 
 .project {
     background-color: #f5f6f8;
-    margin: 30px 32px 0px 32px;
+    margin: 30px 32px;
 }
 
 .project__content {
@@ -242,6 +292,7 @@ body {
     padding: 0;
     margin: 56px 10px;
     position: relative;
+    box-shadow: 0 1px 2px var(--primary-color);
 }
 
 .project__img {
@@ -263,10 +314,59 @@ body {
     left: 4px;
 }
 
+/* Reviewer */
+.review {
+   margin: 12px 2px;
+}
+
+.review__content {
+    background-color: var(--primary-color);
+    padding: 36px 18px 16px 18px;
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+
+.review__content--black {
+    background-color: #323232;
+}
+
+.review__content-author {
+    text-align: end;
+}
+
+.review__content-name {
+    border-top: 1px solid var(--white-color);
+    line-height: 36px;
+}
+
+/* References */
+.references {
+    display: flex;
+    margin: 12px;
+}
+
+.references__logo {
+    background-image: url(/assets/img/refer_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 110px;
+}
+
+.references__logo2 {
+    background-image: url(/assets/img/refer_2.png);
+}
+
+.references__logo3 {
+    background-image: url(/assets/img/refer_3.png);
+}
+
+.references__logo4 {
+    background-image: url(/assets/img/refer_4.png);
+}
 
 /* Footer */
 .footer {
-    padding-top: 12px;
    background-color: #cadb00;
    margin: 0;
 }
@@ -278,13 +378,26 @@ body {
 
 .footer-list {
     list-style: none;
+    margin-top: 32px;
+    border-right: 1px solid var(--text-color);
+}
+
+.footer-list:first-child {
+    border: none;
+}
+
+.footer-list:last-child {
+    border: none;
 }
 
 .footer-heading {
-
+    position: relative;
+    font-weight: 700;
+    border-bottom: 1px solid var(--text-color);
 }
 
 .footer-item {
-
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
 
