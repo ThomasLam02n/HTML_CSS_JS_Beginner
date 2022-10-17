@@ -210,8 +210,10 @@
             </div>
             <div class="container row navbar-calendar">
                 <div class="col-md-2 navbar__calendar-item">
-                    People
-                    <i class="fa-solid fa-person navbar__calendar-item-icon"></i>
+                    <span class="navbar__calendar-label">
+                        People
+                        <i class="fa-solid fa-person navbar__calendar-item-icon"></i>
+                    </span>
                     <span class="navbar__calendar-item-wrap-input">
                         <input type="text" class="navbar__calendar-item-input">
                         <div class="navbar__calendar-item-select">
@@ -225,8 +227,10 @@
                     </span>
                 </div>
                 <div class="col-md-2 navbar__calendar-item">
-                    Time
-                    <i class="fa-solid fa-clock navbar__calendar-item-icon"></i>
+                    <span class="navbar__calendar-label">
+                        Time
+                        <i class="fa-solid fa-clock navbar__calendar-item-icon"></i>
+                    </span>
                     <span class="navbar__calendar-item-wrap-input">
                         <input type="text" class="navbar__calendar-item-input">
                         <div class="navbar__calendar-item-select">
@@ -240,8 +244,10 @@
                     </span>
                 </div>
                 <div class="col-md-2 navbar__calendar-item">
-                    Hotel
-                    <i class="fa-solid fa-hotel navbar__calendar-item-icon"></i>
+                    <span class="navbar__calendar-label">
+                        Hotel
+                        <i class="fa-solid fa-hotel navbar__calendar-item-icon"></i>
+                    </span>
                     <span class="navbar__calendar-item-wrap-input">
                         <input type="text" class="navbar__calendar-item-input">
                         <div class="navbar__calendar-item-select">
@@ -255,8 +261,10 @@
                     </span>
                 </div>
                 <div class="col-md-2 navbar__calendar-item">
-                    Traffic
-                    <i class="fa-solid fa-plane-departure navbar__calendar-item-icon"></i>
+                    <span class="navbar__calendar-label">
+                        Traffic
+                        <i class="fa-solid fa-plane-departure navbar__calendar-item-icon"></i>
+                    </span>
                     <span class="navbar__calendar-item-wrap-input">
                         <input type="text" class="navbar__calendar-item-input">
                         <div class="navbar__calendar-item-select">
@@ -270,8 +278,10 @@
                     </span>
                 </div>
                 <div class="col-md-2 navbar__calendar-item">
-                    Date
-                    <i class="fa-solid fa-calendar-days navbar__calendar-item-icon"></i>
+                    <span class="navbar__calendar-label">
+                        Date
+                        <i class="fa-solid fa-calendar-days navbar__calendar-item-icon"></i>
+                    </span>
                     <span class="navbar__calendar-item-wrap-input">
                         <input type="text" class="navbar__calendar-item-input">
                         <div class="navbar__calendar-item-select">
@@ -285,12 +295,100 @@
                     </span>
                 </div>
                 <div class="col-md-2 navbar__calendar-item navbar__calendar-item-search">
-                    Search
                     <i class="fa-solid fa-magnifying-glass navbar__calendar-item-icon"></i>
+                    Search
                 </div>
             </div>
-            <div class="tablet__navbar-calendar">
-                dom
+            <div class="container row mobile-navbar-calendar">
+                <div class="col-md-8 navbar__calendar-item">
+                    <span class="navbar__calendar-label">
+                        People
+                        <i class="fa-solid fa-person navbar__calendar-item-icon"></i>
+                    </span>
+                    <span class="navbar__calendar-item-wrap-input">
+                        <input type="text" class="navbar__calendar-item-input">
+                        <div class="navbar__calendar-item-select">
+                            <ul class="navbar__calendar-item-select-list">
+                                <li class="navbar__calendar-item-select-item">1-2</li>
+                                <li class="navbar__calendar-item-select-item">2-4</li>
+                                <li class="navbar__calendar-item-select-item">5-10</li>
+                                <li class="navbar__calendar-item-select-item">10-20</li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
+                <div class="col-md-8 navbar__calendar-item">
+                    <span class="navbar__calendar-label">
+                        Time
+                        <i class="fa-solid fa-clock navbar__calendar-item-icon"></i>
+                    </span>
+                    <span class="navbar__calendar-item-wrap-input">
+                        <input type="text" class="navbar__calendar-item-input">
+                        <div class="navbar__calendar-item-select">
+                            <ul class="navbar__calendar-item-select-list">
+                                <li class="navbar__calendar-item-select-item">1-2</li>
+                                <li class="navbar__calendar-item-select-item">2-4</li>
+                                <li class="navbar__calendar-item-select-item">5-10</li>
+                                <li class="navbar__calendar-item-select-item">10-20</li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
+                <div class="col-md-8 navbar__calendar-item">
+                    <span class="navbar__calendar-label">
+                        Hotel
+                        <i class="fa-solid fa-hotel navbar__calendar-item-icon"></i>
+                    </span>
+                    <span class="navbar__calendar-item-wrap-input">
+                        <input type="text" class="navbar__calendar-item-input">
+                        <div class="navbar__calendar-item-select">
+                            <ul class="navbar__calendar-item-select-list">
+                                <li class="navbar__calendar-item-select-item">1-2</li>
+                                <li class="navbar__calendar-item-select-item">2-4</li>
+                                <li class="navbar__calendar-item-select-item">5-10</li>
+                                <li class="navbar__calendar-item-select-item">10-20</li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
+                <div class="col-md-8 navbar__calendar-item">
+                    <span class="navbar__calendar-label">
+                        Traffic
+                        <i class="fa-solid fa-plane-departure navbar__calendar-item-icon"></i>
+                    </span>
+                    <span class="navbar__calendar-item-wrap-input">
+                        <input type="text" class="navbar__calendar-item-input">
+                        <div class="navbar__calendar-item-select">
+                            <ul class="navbar__calendar-item-select-list">
+                                <li class="navbar__calendar-item-select-item">1-2</li>
+                                <li class="navbar__calendar-item-select-item">2-4</li>
+                                <li class="navbar__calendar-item-select-item">5-10</li>
+                                <li class="navbar__calendar-item-select-item">10-20</li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
+                <div class="col-md-8 navbar__calendar-item">
+                    <span class="navbar__calendar-label">
+                        Date
+                        <i class="fa-solid fa-calendar-days navbar__calendar-item-icon"></i>
+                    </span>
+                    <span class="navbar__calendar-item-wrap-input">
+                        <input type="text" class="navbar__calendar-item-input">
+                        <div class="navbar__calendar-item-select">
+                            <ul class="navbar__calendar-item-select-list">
+                                <li class="navbar__calendar-item-select-item">1-2</li>
+                                <li class="navbar__calendar-item-select-item">2-4</li>
+                                <li class="navbar__calendar-item-select-item">5-10</li>
+                                <li class="navbar__calendar-item-select-item">10-20</li>
+                            </ul>
+                        </div>
+                    </span>
+                </div>
+                <div class="col-md-8 navbar__calendar-item navbar__calendar-item-search">
+                    <i class="fa-solid fa-magnifying-glass navbar__calendar-item-icon"></i>
+                    Search
+                </div>
             </div>
         </div>
         <div class="container-fluid location">
