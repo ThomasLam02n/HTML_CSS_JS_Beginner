@@ -193,6 +193,20 @@
         .location__item {
         margin-left: 1px;
     }
+
+    /* Footer-info */
+    .footer-wrap {
+        margin: 0 10px;
+    }
+
+    .footer__dowload-app-wrap-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__download-app-img {
+        height: 18px;
+    }
 }
 
 

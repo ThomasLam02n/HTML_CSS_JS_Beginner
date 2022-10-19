@@ -31,13 +31,13 @@ $('.location__list').slick({
 });
 
 $(document).ready(function(){
-    $('.reviewer').slick({
+    $('.reviewer__slider').slick({
       arrows: false,
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 1000,
-      dots: true,
+      // dots: true,
       responsive: [
         {
           breakpoint: 1024,
@@ -45,7 +45,7 @@ $(document).ready(function(){
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            // dots: true
           }
         },
         {
@@ -54,7 +54,7 @@ $(document).ready(function(){
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
-              dots: true
+              // dots: true
             }
           }
     ]    
