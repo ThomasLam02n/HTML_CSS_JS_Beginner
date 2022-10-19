@@ -8,7 +8,6 @@ body {
 
 /* topbar */
 .background__header {
-    background-image: url(../img/firstpage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +30,7 @@ body {
 }
 
 .navbar {
-    border-bottom: 2px solid var(--white-color);
+    border-bottom: 1px solid var(--white-color);
     position: fixed;
     top: 0px;
     right: 0;
@@ -39,6 +38,7 @@ body {
     border-radius: 2px;
     z-index: 3;
     /* display: none; */
+    background-color: rgb(0, 0, 0, 0.4);
 }
 
 .mobile__navbar {
@@ -173,6 +173,13 @@ body {
     border-bottom: 2px solid var(--navbar-hover);
     text-decoration: none;
     color: var(--navbar-hover);
+}
+
+.navbar__item-link-active {
+    border-bottom: 2px solid var(--navbar-hover);
+    text-decoration: none;
+    color: var(--navbar-hover);
+    cursor: default;
 }
 
 /* logo travel */
@@ -479,6 +486,9 @@ body {
 }
 
 .reviewer-content_avatar-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -546,7 +556,7 @@ body {
 
 .footer-content {
     padding: 0;
-    
+    width: 250px;
 }
 
 .footer__heading {
@@ -693,17 +703,12 @@ body {
     align-items: center;
 }
 
-.footer__dowload-app-wrap-item {
-
-}
-
 .footer__download-link {
     height: 18px;
 }
 
 .footer__download-app-img {
-    width: 100%;
-    height: 20%;
+    width: 122px;
 }
 
 /* Silder slick */
@@ -720,4 +725,34 @@ body {
 
 .slick-active button {
     font-size: 1.6rem;
+}
+
+
+/* -----------------------------------------------------------------------------------OFFERS PAGE----------------------------------------------------------------------------------------------- */
+.offers {
+    background-color: var(--white-color);
+}
+
+.offers__selection {
+    padding-top: 32px;
+}
+
+.offers__selection-item {
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(45, 44, 44);
+    line-height: 50px;
+    cursor: pointer;
+    border: 2px solid rgb(218, 218, 218);
+    padding-left: 25px;
+    padding-right: 14px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+.offers__selection-item-icon {
+    padding-left: 55px;
+    line-height: 48px;
+    color: rgb(146, 145, 145);
 }

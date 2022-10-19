@@ -3,6 +3,10 @@
     .mobile-navbar-calendar {
         display: none;
     }
+
+    .mobile__footer-content {
+        display: none;
+    }
 }
 
 /* Tablet */
@@ -70,6 +74,20 @@
 
     .introduce__background-content {
         padding: 60px 0;
+    }
+
+    /* footer */
+    .footer__content-logo {
+        display: none;
+    }
+
+    .mobile__footer-content {
+        display: block;
+    }
+
+    .footer-content {
+        width: 340px;
+        padding: 0;
     }
 }
 
@@ -204,8 +222,21 @@
         flex-direction: column;
     }
 
-    .footer__download-app-img {
-        height: 18px;
+    /* footer */
+    .footer-wrap {
+        justify-content: start;
+    }
+
+    .footer__content-logo {
+        display: none;
+    }
+
+    .mobile__footer-content {
+        display: block;
+    }
+
+    .footer__download-link  {
+        margin-bottom: 12px;
     }
 }
 
