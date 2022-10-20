@@ -98,6 +98,11 @@
     .offers__available-content {
         margin: 8px 0 0 0;
     }
+
+    /* ----------------About page --------------- */
+    .intro__content {
+        padding-bottom: 80px;
+    }
 }
 
 /* Mobile */
@@ -260,6 +265,32 @@
 
     .offers__available-content {
         margin: 8px 0;
+        padding: 0 0 70px 0;
+    }
+
+    .offers__available {
+        margin-bottom: 328px;
+    }
+
+    /* ----------------About page --------------- */
+    .intro {
+        padding: 0;
+    }
+
+    .intro__img {
+        height: 300px;
+    }
+
+    .intro__content-heading h1 {
+        font-size: 2.4rem;
+    }
+
+    .intro__content-text {
+        margin: 0;
+    }
+
+    .intro__content {
+        padding-bottom: 30px;
     }
 }
 

@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     z-index: -2;
@@ -729,10 +730,6 @@ body {
 
 
 /* -----------------------------------------------------------------------------------OFFERS PAGE----------------------------------------------------------------------------------------------- */
-.offers {
-
-}
-
 .offers__selection {
     padding-top: 32px;
 }
@@ -760,11 +757,10 @@ body {
 .offers__available{
     height: 246px;
     display: flex;
-    margin-bottom: 330px;
+    margin-bottom: 28px;
 }
 
 .offers__available-picture {
-    background-image: url('../img/japan_location.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -775,16 +771,17 @@ body {
 .offers__available-picture-name {
     position: absolute;
     bottom: 20px;
+    left: 0;
     font-size: 1.6rem;
     font-weight: 700;
     color: var(--white-color);
-    width: 40%;
+    width: 196px;
     text-align: center;
     background-color: #FA9E1B;
 }
 
 .offers__available-content {
-    margin-left: 16px;
+    position: relative;
 }
 
 .offers__available-content-wrap {
@@ -867,9 +864,61 @@ body {
     color: var(--white-color);
     border: none;
     outline: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .offers__available-btn:hover {
     filter: brightness(150%);
 }
 
+/*---------------------------------------------------------------- About page---------------------------------------------------------------------------- */
+
+.intro {
+    padding: 100px;
+    margin: 0;
+}
+
+.intro__img {
+    background-image: url('../img/intro.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+}
+
+.intro__content {
+    position: relative;
+}
+
+.intro__content-heading {
+    font-size: 1.6rem;
+}
+
+.intro__content-text {
+    font-weight: 600;
+    color: #929191;
+    margin-top: 60px;
+    line-height: 2;
+    text-align: justify; /*Canh đều*/
+    padding-bottom: 35px;
+}
+
+.intro__content-btn {
+    position: absolute;
+    left: 14px;
+    bottom: 0;
+    height: 53px;
+    border-radius: 27px;
+    padding: 12px 42px;
+    font-size: 1.4rem;
+    background-color: var(--navbar-hover);
+    color: var(--white-color);
+    border: none;
+}
+
+.intro__content-btn:hover {
+    filter: brightness(150%);
+}
