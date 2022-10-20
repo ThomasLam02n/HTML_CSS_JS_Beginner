@@ -89,6 +89,15 @@
         width: 340px;
         padding: 0;
     }
+
+    /* ----------------offers page------------------ */
+    .offers__available-picture {
+        width: 100%;
+    }
+
+    .offers__available-content {
+        margin: 8px 0 0 0;
+    }
 }
 
 /* Mobile */
@@ -237,6 +246,20 @@
 
     .footer__download-link  {
         margin-bottom: 12px;
+    }
+
+    /* ----------------offers page-------------- */
+    .offers__available-picture {
+        width: 100%;
+    }
+    
+    .offers__available {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    .offers__available-content {
+        margin: 8px 0;
     }
 }
 
