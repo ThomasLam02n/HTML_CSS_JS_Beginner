@@ -55,7 +55,7 @@
     }
 
     .navbar__calendar-item-input {
-      width: 100%;
+        width: 100%;
     }
 
     /* location */
@@ -102,6 +102,20 @@
     /* ----------------About page --------------- */
     .intro__content {
         padding-bottom: 80px;
+    }
+
+    .chart-layout__item {
+        width: 100px;
+    }
+
+    /* Sell off */
+    .sell-off__content {
+        left: 60px;
+    }
+
+    /* archive */
+    .archive__item {
+        width: 250px;
     }
 }
 
@@ -170,7 +184,7 @@
         margin: 0;
         padding-top: 12px;
     }
-    
+
     /* Name company */
     .navbar-travel {
         top: -5%;
@@ -209,7 +223,7 @@
     }
 
     .navbar__calendar-item-input {
-      width: 100%;
+        width: 100%;
     }
 
     /* introduce */
@@ -222,7 +236,7 @@
         padding-top: 300px;
     }
 
-        .location__item {
+    .location__item {
         margin-left: 1px;
     }
 
@@ -249,7 +263,7 @@
         display: block;
     }
 
-    .footer__download-link  {
+    .footer__download-link {
         margin-bottom: 12px;
     }
 
@@ -257,7 +271,7 @@
     .offers__available-picture {
         width: 100%;
     }
-    
+
     .offers__available {
         margin-right: 8px;
         margin-left: 8px;
@@ -292,6 +306,46 @@
     .intro__content {
         padding-bottom: 30px;
     }
+
+    .chart-layout__item {
+        width: 50px;
+        font-size: 0.7rem;
+    }
+
+    .chart-layout__item-year {
+        font-size: 1.2rem;
+        bottom: -22px;
+    }
+
+    /* Sell off */
+    .sell-off {
+        font-size: 1.6rem;
+    }
+
+    .sell-off__img {
+        margin: 0 10px;
+    }
+
+    .sell-off__content {
+        left: 12px;
+    }
+
+    .sell-off__name {
+        font-size: 2.8rem;
+    }
+
+    .sell-off__price {
+        font-size: 2.2rem;
+    }
+
+    .sell-off__btn {
+        font-size: 1.4rem;
+        padding: 12px;
+        margin-top: 12px;
+    }
+
+    /* archive */
+    .archive__item {
+        width: 150px;
+    }
 }
-
-
