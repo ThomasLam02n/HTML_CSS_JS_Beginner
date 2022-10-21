@@ -117,6 +117,27 @@
     .archive__item {
         width: 250px;
     }
+
+    /* ----------------Booking page --------------- */
+    .booking-report {
+        margin: 0;
+    }
+
+    .booking-report__input {
+        margin-top: 20px;
+    }
+
+    .booking-report__select {
+        margin-top: 26px;
+    }
+
+    .booking-report__textarea {
+        margin-top: 16px;
+    }
+
+    .booking-report__btn {
+        margin-top: 20px;
+    }
 }
 
 /* Mobile */
@@ -347,5 +368,30 @@
     /* archive */
     .archive__item {
         width: 150px;
+    }
+
+    /* ----------------Booking page --------------- */
+    .booking-report {
+        margin: 0;
+    }
+
+    .booking-report__input {
+        margin-top: 20px;
+    }
+
+    .booking-report__select {
+        margin-top: 26px;
+    }
+
+    .booking-report__textarea {
+        margin-top: 16px;
+    }
+
+    .booking-report__btn {
+        margin-top: 20px;
+    }
+
+    .booking {
+
     }
 }

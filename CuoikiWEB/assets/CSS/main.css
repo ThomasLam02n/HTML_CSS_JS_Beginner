@@ -1075,3 +1075,84 @@ body {
     font-size: 1.4rem;
     font-weight: 700;
 }
+
+/* -------------------------------------------------Booking page ------------------------------------------------------- */
+.booking {
+    background-image: linear-gradient(-30deg,#6883a0,#fd8a49,#ffbc78,#dab986,#fecf39);
+    color: var(--white-color);
+    border-radius: 15px;
+    margin: 142px auto;
+}
+
+.booking-report {
+    margin: 26px 12px 12px 0;
+}
+
+.booking-report__header {
+    text-align: center;
+}
+
+.booking-report__heading {
+    font-size: 6.2rem;
+    font-weight: 700;
+    margin: 0 auto;
+    font-family: font_dancing;
+}
+
+.booking-report__wrap {
+    display: flex;
+    /* padding: 0; */
+}
+
+.booking-report__input {
+    flex: 1;
+    height: 48px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    font-size: 2.6rem;
+    color: var(--white-color);
+}
+
+.booking-report__label {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    align-self: flex-end;
+}
+
+.booking-report__select {
+    flex: 1;
+    height: 48px;
+    font-size: 1.8rem;
+    margin-left: 6px;
+}
+
+.booking-report__textarea {
+    width: 100%;
+    margin: 0 14px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    font-size: 2.6rem;
+    color: var(--white-color);
+    outline: none;
+    z-index: 2;
+}
+
+.booking-report--book {
+    display: flex;
+    justify-content: center;
+}
+
+.booking-report__btn {
+    font-size: 3.6rem;
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: var(--navbar-hover);
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
