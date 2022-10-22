@@ -58,6 +58,7 @@ html {
     right: 0;
     bottom: 0;
     display: flex;
+    display: none;
 }
 
 .modal__overlay {

@@ -110,10 +110,13 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="navbar__item">
+                        <button class="navbar__item navbar__item-btn" onclick="document.getElementById('login').style.display='block'">
                             Login
-
-                        </li>
+                        </button>
+                        <button class="navbar__item navbar__item-btn avbar__item-btn--exit" style="display: none;">
+                            <i class="fa-solid fa-user"></i>
+                            Exit
+                        </button>
                     </ul>
                 </div>
             </div>
@@ -189,9 +192,9 @@
                                         </li>
                                     </a>
                                     <a href="#" class="mobile__navbar-item-link">
-                                        <li class="mobile__navbar-item">
+                                        <button class="mobile__navbar-item navbar__item-btn" onclick="document.getElementById('login').style.display='block'">
                                             Login
-                                        </li>
+                                        </button>
                                     </a>
                                 </ul>
                             </i>
@@ -204,7 +207,7 @@
                     <span class="navbar-travel__logo">
                         Tai
                     </span>
-                    <span class="navbar-travel__logo">
+                    <span class="navbar-travel__logo" id="siteContent">
                         Travel
                     </span>
                 </div>
@@ -399,7 +402,7 @@
             <div class="container raw location__body">
                 <div class="col-12 location__info">
                     <ul class="location__list">
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/japan_location.jpg');">
@@ -414,7 +417,7 @@
                                 </div>
                             </li>
                         </a>
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/italia_location.jpg') ;">
@@ -429,7 +432,7 @@
                                 </div>
                             </li>
                         </a>
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/france_location.jpg') ;">
@@ -444,7 +447,7 @@
                                 </div>
                             </li>
                         </a>
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/russia_location.jpg') ;">
@@ -459,7 +462,7 @@
                                 </div>
                             </li>
                         </a>
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/vietnam_location.jpg') ;">
@@ -474,7 +477,7 @@
                                 </div>
                             </li>
                         </a>
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/santorini_location.jpg') ;">
@@ -489,7 +492,7 @@
                                 </div>
                             </li>
                         </a>
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/belgium_location.jpg') ;">
@@ -504,7 +507,7 @@
                                 </div>
                             </li>
                         </a>
-                        <a href="#" class="location__link">
+                        <a href="offers.html" class="location__link">
                             <li class="location__item">
                                 <div class="location__item-img"
                                     style="background-image: url('assets/img/England.jpg') ;">
@@ -690,21 +693,21 @@
                         <li class="footer__item">
                             <img src="assets/img/footer_item_beach.jpg" alt="beach" class="footer__item-img">
                             <div class="footer__item-content">
-                                <a href="#" class="footer__item-link">Travel with us this year</a>
+                                <a href="offers.html" class="footer__item-link">Travel with us this year</a>
                                 <span class="footer__item-date">july 20, 2022</span>
                             </div>
                         </li>
                         <li class="footer__item">
                             <img src="assets/img/footer_item_beach2.jpg" alt="beach" class="footer__item-img">
                             <div class="footer__item-content">
-                                <a href="#" class="footer__item-link">New destinations for you</a>
+                                <a href="offers.html" class="footer__item-link">New destinations for you</a>
                                 <span class="footer__item-date">july 20, 2022</span>
                             </div>
                         </li>
                         <li class="footer__item">
                             <img src="assets/img/footer_item_board.jpg" alt="beach" class="footer__item-img">
                             <div class="footer__item-content">
-                                <a href="#" class="footer__item-link">Travel with us this year</a>
+                                <a href="offers.html" class="footer__item-link">Travel with us this year</a>
                                 <span class="footer__item-date">july 20, 2022</span>
                             </div>
                         </li>
@@ -716,20 +719,20 @@
                     </span>
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="#" class="footer__item-btn footer__item-link-left">Food</a>
-                            <a href="#" class="footer__item-btn footer__item-link-right">Fastion</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-left">Food</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-right">Fastion</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__item-btn footer__item-link-left">Beach</a>
-                            <a href="#" class="footer__item-btn footer__item-link-right">Entertainment</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-left">Beach</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-right">Entertainment</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__item-btn footer__item-link-left">Enjoy on the sand</a>
-                            <a href="#" class="footer__item-btn footer__item-link-right">Hotel five star</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-left">Enjoy on the sand</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-right">Hotel five star</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__item-btn footer__item-link-left">Resort</a>
-                            <a href="#" class="footer__item-btn footer__item-link-right">sufwave by motor</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-left">Resort</a>
+                            <a href="offers.html" class="footer__item-btn footer__item-link-right">sufwave by motor</a>
                         </li>
                     </ul>
                 </div>
@@ -784,51 +787,56 @@
         </button>
     </div>
     <!-- login modal -->
-    <!-- <div class="modal">
+    <div id="login" class="modal">
         <div class="modal__overlay">
             <div class="row modal__body">
                 <div class="col-12 modal__auth-container">
-                    <div class="modal__auth-heading">
-                        <h3 class="modal__auth-heading-signin modal__auth-heading-sign--active">SIGN IN</h3>
-                        <h3 class="modal__auth-heading-signup">SIGN UP</h3>
+                    <div id="signin">
+                        <div class="modal__auth-heading">
+                            <button class="modal__auth-heading-signin modal__auth-heading-sign--active" onclick="login()">SIGN IN</button>
+                            <button class="modal__auth-heading-signup" onclick="registed()">SIGN UP</button>
+                        </div>
+                        <div class="modal__auth-form">
+                            <span class="modal__auth-form-label">USERNAME</span>
+                            <input type="text" class="modal__auth-form-input">
+                            <span class="modal__auth-form-label">PASSWORD</span>
+                            <input type="text" class="modal__auth-form-input">
+                        </div>
+                        <div class="modal__auth-button">
+                            <button class="btn" onclick="document.getElementById('login').style.display='none'">BACK</button>
+                            <button class="btn btn-primary-color">SIGN IN</button>
+                        </div>
                     </div>
-                    <div class="modal__auth-form">
-                        <span class="modal__auth-form-label">USERNAME</span>
-                        <input type="text" class="modal__auth-form-input">
-                        <span class="modal__auth-form-label">PASSWORD</span>
-                        <input type="text" class="modal__auth-form-input">
-                    </div>
-                    <div class="modal__auth-button">
-                        <button class="btn">BACK</button>
-                        <button class="btn btn-primary-color">SIGN IN</button>
-                    </div>
-                    <div class="modal__auth-heading">
-                        <h3 class="modal__auth-heading-signin">SIGN IN</h3>
-                        <h3 class="modal__auth-heading-signup modal__auth-heading-sign--active">SIGN UP</h3>
-                    </div>
-                    <div class="modal__auth-form">
-                        <span class="modal__auth-form-label">EMAIL</span>
-                        <input type="text" class="modal__auth-form-input">
-                        <span class="modal__auth-form-label">USERNAME</span>
-                        <input type="text" class="modal__auth-form-input">
-                        <span class="modal__auth-form-label">PASSWORD</span>
-                        <input type="text" class="modal__auth-form-input">
-                        <span class="modal__auth-form-label">REPEAT PASSWORD</span>
-                        <input type="text" class="modal__auth-form-input">
-                    </div>
-                    <div class="modal__auth-button">
-                        <button class="btn">BACK</button>
-                        <button class="btn btn-primary-color">SIGN UP</button>
+                    <div id="signup" style="display: none;">
+                        <div class="modal__auth-heading">
+                            <button class="modal__auth-heading-signin" onclick="login()">SIGN IN</button>
+                            <button class="modal__auth-heading-signup modal__auth-heading-sign--active" onclick="registed()">SIGN UP</button>
+                        </div>
+                        <div class="modal__auth-form">
+                            <span class="modal__auth-form-label">EMAIL</span>
+                            <input type="text" class="modal__auth-form-input">
+                            <span class="modal__auth-form-label">USERNAME</span>
+                            <input type="text" class="modal__auth-form-input">
+                            <span class="modal__auth-form-label">PASSWORD</span>
+                            <input type="text" class="modal__auth-form-input">
+                            <span class="modal__auth-form-label">REPEAT PASSWORD</span>
+                            <input type="text" class="modal__auth-form-input">
+                        </div>
+                        <div class="modal__auth-button">
+                            <button class="btn" onclick="document.getElementById('login').style.display='none'">BACK</button>
+                            <button class="btn btn-primary-color">SIGN UP</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/JS/slick.min.js"></script>
     <script src="assets/JS/slider.js"></script>
     <script src="assets/JS/btn.js"></script>
+    <script src="assets/JS/login.js"></script>
 </body>
 
 </html>
