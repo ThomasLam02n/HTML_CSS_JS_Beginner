@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
 body {
     background-color: rgb(250, 250, 250);
 }
@@ -1155,4 +1160,25 @@ body {
     background-color: var(--navbar-hover);
     color: var(--white-color);
     margin-bottom: 20px;
+}
+
+/* App btn go to top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.myBtn__icon {
+    padding: 12px;
+    color: var(--white-color);
 }
