@@ -1,12 +1,6 @@
-var myString = 'Tai Lam';
+var pi = 3.1464634745758458458;
 
-console.log(myString[0]);
-console.log(myString[1]);
-console.log(myString[2]);
-console.log(myString[3]);
-console.log(myString[4]);
-console.log(myString[5]);
-console.log(myString[6]);
+console.log(pi.toFixed(4));
 
 
 
