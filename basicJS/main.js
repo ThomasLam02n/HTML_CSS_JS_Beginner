@@ -1,6 +1,11 @@
-var pi = 3.1464634745758458458;
+var languages = [
+    'Javascript', 
+    'HTML', 
+    'CSS'
+];
 
-console.log(pi.toFixed(4));
+console.log(languages.slice(-2,-1));
+
 
 
 
