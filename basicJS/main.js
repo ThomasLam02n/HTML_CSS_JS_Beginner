@@ -1,12 +1,11 @@
-var languages = [
-    'Javascript', 
-    'HTML', 
-    'CSS'
-];
+function add(a, b) {
+    console.log(a);
+    console.log(b);
+    return a + b;
+}
 
-console.log(languages.slice(-2,-1));
-
-
+var result = add(2, 8);
+console.log(result);
 
 
 
