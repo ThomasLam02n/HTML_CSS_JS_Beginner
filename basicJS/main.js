@@ -1,12 +1,7 @@
-function add(a, b) {
-    console.log(a);
-    console.log(b);
-    return a + b;
+fullName();
+
+var fullName = function showName() {
+    console.log('Lâm Vũ Thành Tài');
 }
-
-var result = add(2, 8);
-console.log(result);
-
-
 
 
