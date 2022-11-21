@@ -1,19 +1,16 @@
-function User(firstName, lastName, avatar) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.avatar = avatar;
+var date = 9;
+
+switch (date) {
+    case 2:
+    case 3:
+    case 4:
+        console.log('Hôm nay là thứ 2, 3, 4');
+        break;
+    case 5:
+        console.log('Hôm nay là thứ 5');
+        break;
+    default:
+        console.log('Không biết');
 }
-
-User.prototype.email = 'GDU@gmail.com'
-User.prototype.getName = function() {
-    return `${this.firstName} ${this.lastName}`;
-}
-
-var author = new User('Tai', 'Lam', 'Avatar LVTT');
-var user = new User('Phong', 'Truong', 'Avatar THP');
-
-console.log(author.getName());
-console.log(user.getName());
-
 
 
