@@ -1,13 +1,6 @@
-var myArray = [
-    'Javascript',
-    'CSS',
-    'HTML',
-    'PHP'
-]
+var myString = 'Tai Lam'
 
-var arrayLength = myArray.length;
-
-for (var i = 0; i < arrayLength; i++) {
-    console.log(myArray[i]);
+for(var key in myString) {
+    console.log(key);
 }
 
