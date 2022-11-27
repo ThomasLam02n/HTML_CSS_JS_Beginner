@@ -21,10 +21,15 @@ var courses = [
     }
 ]
 
-
-var coinOfCoure = courses.filter(function(course, index){
-    return course.coin === 200;
+var newCourses = courses.map(function(course, index, originalArray){
+    return {
+        id: course.id,
+        name: `Khóa học: ${course.name}`,
+        coin: course.coin,
+        index: index,
+        originalArray: originalArray
+    };
 });
 
-console.log(coinOfCoure);
+console.log(newCourses);
 
