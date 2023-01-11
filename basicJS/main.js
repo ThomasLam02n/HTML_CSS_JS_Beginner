@@ -1,1 +1,4 @@
-document.write('Lâm Vũ Thành Tài');
+var headingNode = document.forms['form-2'];
+
+console.log(headingNode);
+
