@@ -1,4 +1,9 @@
-var headingNode = document.forms['form-2'];
+var listNodeItems = document.querySelector('.box');
 
-console.log(headingNode);
+console.log(listNodeItems);
+
+var NodeItems = listNodeItems.getElementsByTagName('li');
+
+console.log(NodeItems);
+
 
