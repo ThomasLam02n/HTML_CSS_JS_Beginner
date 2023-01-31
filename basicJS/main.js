@@ -1,9 +1,4 @@
-var listNodeItems = document.querySelector('.box');
+var headingElement = document.querySelector('h1');
 
-console.log(listNodeItems);
-
-var NodeItems = listNodeItems.getElementsByTagName('li');
-
-console.log(NodeItems);
-
+console.log(headingElement.href);
 
