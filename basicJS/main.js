@@ -1,4 +1,6 @@
-var headingElement = document.querySelector('h1');
+var boxElement = document.querySelector('.box');
 
-console.log(headingElement.textContent);
+boxElement.outerHTML = '<span>heading</span>';
+
+console.log(boxElement.outerHTML);
 
