@@ -1,4 +1,7 @@
 var boxElement = document.querySelector('.box');
 
-console.log(boxElement.style);
+boxElement.classList.add('green', 'blue');
 
+setInterval(() => {
+    boxElement.classList.toggle('red');
+}, 1000);
