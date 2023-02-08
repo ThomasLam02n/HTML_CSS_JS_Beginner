@@ -1,7 +1,5 @@
-var boxElement = document.querySelector('.box');
+var inputElement = document.querySelector('input[type="text"]');
+inputElement.onkeyup = function(e){
+    console.log(e.which);
+}
 
-boxElement.classList.add('green', 'blue');
-
-setInterval(() => {
-    boxElement.classList.toggle('red');
-}, 1000);
