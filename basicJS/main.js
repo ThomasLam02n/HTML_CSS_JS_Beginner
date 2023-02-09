@@ -1,5 +1,11 @@
-var inputElement = document.querySelector('input[type="text"]');
-inputElement.onkeyup = function(e){
-    console.log(e.which);
-}
+document.querySelector('div').onclick =
+  function(e) {
+    console.log('Thẻ DIV');
+  };
+
+  document.querySelector('button').onclick =
+  function(e) {
+    e.stopPropagation();
+    console.log('Thẻ button');
+  };
 
