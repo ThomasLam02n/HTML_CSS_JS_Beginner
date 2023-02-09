@@ -1,11 +1,12 @@
-document.querySelector('div').onclick =
-  function(e) {
-    console.log('Thẻ DIV');
-  };
+var btnElement = document.querySelector('button');
 
-  document.querySelector('button').onclick =
-  function(e) {
-    e.stopPropagation();
-    console.log('Thẻ button');
-  };
+function viec1() {
+  console.log("viec 1")
+}
+
+btnElement.addEventListener('click', viec1);
+
+setTimeout(function(){
+  btnElement.removeEventListener('click', viec1);
+}, 3000);
 
