@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="" method="post" class="form" id="form-1">
+            <h3 class="heading">Thành viên đăng ký</h3>
+            <p class="desc">Cùng nhau học lập trình miễn phí trên
+                <span class="desc-simble">F8 ❤️</span>
+            </p>
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                <input class="form-input" type="text" id="fullname" name="fullname"
+                    placeholder="VD: Lâm Vũ Thành Tài">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-input" type="text" id="email" name="email"
+                    placeholder="VD: lamvuthanhtai14042002@gmail.com">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="passwork" class="form-label">Mật khẩu</label>
+                <input class="form-input" type="text" id="passwork" name="passwork" placeholder="VD: 12345">
+                <span class="form-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="passwork-confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input class="form-input" type="text" id="passwork-confirmation" name="passwork-confirmation"
+                    placeholder="VD: 12345">
+                <span class="form-message"></span>
+            </div>
+            <button class="submit">Đăng ký</button>
+        </form>
+    </div>
+    <script src="validator.js"></script>
+    <script>
+
+        //Mong muốn của chúng ta
+        Validator({
+            form: '#form-1',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequire('#fullname'),
+                Validator.isEmail('#email'),
+                Validator.minLength('#passwork', 6)
+            ]
+        });
+
+    </script>
+</body>
+
+</html>
