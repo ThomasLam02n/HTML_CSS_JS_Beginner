@@ -29,13 +29,13 @@
                 <span class="form-message"></span>
             </div>
             <div class="form-group">
-                <label for="passwork" class="form-label">Mật khẩu</label>
-                <input class="form-input" type="text" id="passwork" name="passwork" placeholder="VD: 12345">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input class="form-input" type="password" id="password" name="password" placeholder="VD: 12345">
                 <span class="form-message"></span>
             </div>
             <div class="form-group">
-                <label for="passwork-confirmation" class="form-label">Nhập lại mật khẩu</label>
-                <input class="form-input" type="text" id="passwork-confirmation" name="passwork-confirmation"
+                <label for="password-confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input class="form-input" type="password" id="password-confirmation" name="password-confirmation"
                     placeholder="VD: 12345">
                 <span class="form-message"></span>
             </div>
@@ -50,10 +50,19 @@
             form: '#form-1',
             errorSelector: '.form-message',
             rules: [
-                Validator.isRequire('#fullname'),
+                Validator.isRequire('#fullname', 'Vui lòng nhập tên đầy đủ của bạn'),
+                Validator.isRequire('#email'),
                 Validator.isEmail('#email'),
-                Validator.minLength('#passwork', 6)
-            ]
+                Validator.minLength('#password', 6),
+                Validator.isRequire('#password-confirmation'),
+                Validator.isConfirmed('#password-confirmation', function() {
+                    return document.querySelector('#form-1 #password').value;
+                }, 'Mật khẩu nhập lại không chính xác')
+            ],
+            // onSubmit: function (data) {
+            //     //Call API
+            //     console.log(data);
+            // }
         });
 
     </script>
